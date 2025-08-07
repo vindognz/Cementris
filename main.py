@@ -7,6 +7,7 @@ print("i am going to crash tf out if it doesnt sync in the next 30 seconds")
 i = 0
 while i < 30:
     print(i)
+    i += 1
 
 print("times up. SYNC YOU STUPID BOZO")
 print("thank you")
