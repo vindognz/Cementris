@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = `pkg-config --cflags sdl3`
 LIBS = `pkg-config --libs sdl3`
-TARGET = main.elf
+TARGET = main
 SRC = main.c
 
 all: $(TARGET)
